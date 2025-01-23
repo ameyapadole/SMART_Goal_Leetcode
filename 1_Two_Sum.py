@@ -9,3 +9,7 @@ def twoSum(nums, target):
         hashset[num] = i 
 
 print(twoSum([2,7,11,15], 9))
+
+"""
+Time Complexity: O(N)
+"""

@@ -8,3 +8,16 @@ def containDuplicate(nums):
     return False 
 
 print(containDuplicate([1,2,3,1]))
+
+"""
+Time Complexity: 
+The length of the list nums is N. The for loop runs N times. Checking the hashset takes O(1) time for each hit. So O(N) times for N number of elements. 
+O(N) + O(N) = O(N)
+
+Time Complexity = O(N)
+
+Space Complexity:
+We use hashset to store the elements from from the list. So O(N)
+
+Space complexity = O(N)
+"""
