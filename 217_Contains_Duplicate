@@ -1,0 +1,10 @@
+def containDuplicate(nums):
+    hashset = set()
+    for num in nums:
+        if num not in hashset:
+            hashset.add(num)
+        else:
+            return True
+    return False 
+
+print(containDuplicate([1,2,3,1]))
